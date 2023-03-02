@@ -4,7 +4,7 @@ import { Link, Outlet } from "react-router-dom";
 const Layout = () => {
   return (
     <>
-      <nav className="bg-white border-gray-200 px-2 sm:px-4 py-2.5 dark:bg-gray-900 h-[50px]">
+      <nav className="bg-white border-gray-200 px-2 sm:px-10 py-5 dark:bg-gray-900 h-[70px] text-xl ">
         <ul className="flex gap-6 text-white">
           <li><Link to="/">Home</Link></li>
           <li><Link to="/CelToFah">Celsius to Fahrenheit</Link></li>
